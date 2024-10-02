@@ -1,8 +1,10 @@
 "use client";
 
+import Contact from "@/components/Contact";
 import Description from "@/components/Description";
 import Landing from "@/components/Landing";
 import Preloader from "@/components/Preloader";
+import SlidingImages from "@/components/SlidingImages";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -29,6 +31,8 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <Description />
+      <SlidingImages />
+      <Contact />
     </main>
   );
 }

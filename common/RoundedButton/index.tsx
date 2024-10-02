@@ -44,7 +44,7 @@ export default function index({
     <Magnetic>
       <div
         className={cn(
-          "rounded-full border border-gray-500 cursor-pointer relative flex items-center justify-center px-16 py-4",
+          "rounded-full border border-gray-500 cursor-pointer relative flex items-center justify-center",
           className
         )}
         style={{ overflow: "hidden" }}

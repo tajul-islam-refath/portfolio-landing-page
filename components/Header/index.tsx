@@ -85,15 +85,15 @@ function index() {
           </Magnetic>
         </div>
       </div>
-      <div ref={button} className={`fixed right-0 z-4 transform scale-0`}>
+      <div ref={button} className={`fixed right-0 z-10 transform scale-0`}>
         <RoundedButton
           onClick={() => setIsActive(!isActive)}
           className="relative m-5 w-[80px] h-[80px] rounded-full bg-[#1C1D20] cursor-pointer flex items-center justify-center"
         >
           <div
-            className={`relative w-full z-1 ${isActive ? "burgerActive" : ""}`}
+            className={`relative w-full z-10 ${isActive ? "burgerActive" : ""}`}
           >
-            <div className="before:content-[''] before:block before:h-[1px] before:w-[40%] before:m-auto before:bg-white before:relative before:top-1 before:transition-transform after:content-[''] after:block after:h-[1px] after:w-[40%] after:m-auto after:bg-white after:relative after:top-[-5px] after:transition-transform"></div>
+            <div className="before:content-[''] before:block before:h-[1px] before:w-[40%] before:m-auto before:bg-white before:text-white before:relative before:top-1 before:transition-transform after:content-[''] after:block after:h-[1px] after:w-[40%] after:m-auto after:bg-white after:relative after:top-[-5px] after:transition-transform "></div>
           </div>
         </RoundedButton>
       </div>

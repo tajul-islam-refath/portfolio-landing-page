@@ -1,4 +1,3 @@
-
 import { useInView, motion } from "framer-motion";
 import { useRef } from "react";
 import { slideUp, opacity } from "./animation";
@@ -49,7 +48,6 @@ export default function index() {
               About me
             </p>
           </Rounded>
-
         </div>
       </div>
     </div>
